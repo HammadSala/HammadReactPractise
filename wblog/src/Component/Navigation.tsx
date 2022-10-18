@@ -7,8 +7,9 @@ function Navigation(){
     return(
         <>
             <NavLink to='/Home' className="linkActive"> Home</NavLink>
-            <NavLink to='Contact' className="linkActive"> Contact</NavLink>
-            <NavLink to='Form' className="linkActive"> Form</NavLink>
+            <NavLink to='/Contact' className="linkActive"> Contact</NavLink>
+            <NavLink to='/Form' className="linkActive"> Form</NavLink>
+            <NavLink to='/Survey'className="linkActive">Survey</NavLink>
         </>
     );
 }
